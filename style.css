@@ -1,0 +1,73 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  background-color: black;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .card {
+  background-color: #040f49;
+  padding: 2.5rem;
+  border-radius: 10px;
+  border: solid white 2px;
+}
+
+.container .card .content #name {
+  text-align: center;
+}
+
+.container .card .content .image {
+  text-align: center;
+}
+
+.container .card .content .image img {
+  width: 150px;
+  border-radius: 50%;
+  border: white solid 2px;
+}
+
+.container .card .content #info {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.container .card .content #info li {
+  margin: 7px 0px;
+}
+
+.container .card .content .btn {
+  text-align: center;
+  margin: 2rem 0px 0px;
+}
+
+.container .card .content .btn #btn {
+  padding: 0.5rem 2rem;
+  color: white;
+  border: solid white 1px;
+  background-color: #040f49;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+.container .card .content .btn #btn:hover {
+  color: #040f49;
+  border: solid #040f49 1px;
+  background-color: white;
+}
+/*# sourceMappingURL=style.css.map */
