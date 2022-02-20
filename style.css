@@ -1,8 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+:root {
+  --primary: #051b63;
+  --white: white;
+  --black: black;
+}
+
 body {
   margin: 0px;
   padding: 0px;
-  color: white;
-  background-color: black;
+  color: var(--white);
+  background-color: var(--black);
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -20,10 +28,10 @@ body {
 }
 
 .container .card {
-  background-color: #040f49;
+  background-color: var(--primary);
   padding: 2.5rem;
   border-radius: 10px;
-  border: solid white 2px;
+  border: solid var(--white) 2px;
 }
 
 .container .card .content #name {
@@ -37,7 +45,7 @@ body {
 .container .card .content .image img {
   width: 150px;
   border-radius: 50%;
-  border: white solid 2px;
+  border: var(--white) solid 2px;
 }
 
 .container .card .content #info {
@@ -57,17 +65,17 @@ body {
 
 .container .card .content .btn #btn {
   padding: 0.5rem 2rem;
-  color: white;
-  border: solid white 1px;
-  background-color: #040f49;
+  color: var(--white);
+  border: solid var(--white) 1px;
+  background-color: var(--primary);
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   border-radius: 5px;
 }
 
 .container .card .content .btn #btn:hover {
-  color: #040f49;
-  border: solid #040f49 1px;
-  background-color: white;
+  color: var(--primary);
+  border: solid var(--primary) 2px;
+  background-color: var(--white);
 }
 /*# sourceMappingURL=style.css.map */
